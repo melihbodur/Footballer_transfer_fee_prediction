@@ -6,7 +6,7 @@
 
 import pandas as pd
 import numpy as np
-a = pd.read_excel("laptopum2.xlsx")
+a = pd.read_excel("futbol.xlsx")
 from tkinter import *
 from tkinter.ttk import Combobox
 a.drop(["Unnamed: 0"], axis=1, inplace=True)
